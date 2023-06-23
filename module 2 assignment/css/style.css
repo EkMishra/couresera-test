@@ -1,0 +1,78 @@
+*{
+    box-sizing:border-box;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 48px;
+    text-align: center  ;
+}
+body{
+    background: linear-gradient( 111.4deg,  rgba(238,113,113,1) 1%, rgba(246,215,148,1) 58% ) ;
+    
+}
+.row{
+    width: 100%;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    margin:auto;
+    padding:2px ;
+    
+    font-size:24px;
+
+}
+.pclass{
+    font-family: 'Times New Roman', Times, serif;
+    height: 350px;
+    clear:both;
+    padding: 10px;
+   
+}
+.rbox{
+    border: 1px solid black;
+    height: 30px;
+    width: 150px;
+    background-color: #00FFFF;
+    float:right;
+    margin-bottom: 10px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    
+
+}
+
+/* for large */
+@media(min-width:992px){
+    .col-lg-4{
+        border: 1px solid black;
+        margin: 5px;
+        float:left;
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(237,3,32,0.87) 20.8%, rgba(242,121,1,0.84) 74.4% );    
+        width:32%;
+        
+    }
+}
+@media  (min-width:768px) and (max-width:991px){
+    .col-md-6{
+        border: 1px solid black;
+        margin: 5px;
+        float:left;
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(237,3,32,0.87) 20.8%, rgba(242,121,1,0.84) 74.4% );
+        width:49%;
+
+    }
+}
+@media(max-width:767px){
+    .col-xs-12{
+        margin: 5px;
+        border: 1px solid black;
+        float:left;
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(237,3,32,0.87) 20.8%, rgba(242,121,1,0.84) 74.4% );    
+        width:100%;
+    }
+    .pclass{
+        height: auto;
+    }
+}
