@@ -17,7 +17,7 @@ p{
     font-family: 'Courier New', Courier, monospace;
     margin:auto;
     padding:2px ;
-    
+    overflow: auto ;
     font-size:24px;
 
 }
@@ -47,10 +47,10 @@ p{
 @media(min-width:992px){
     .col-lg-4{
         border: 1px solid black;
-        margin: 5px;
+        margin: 2%;
         float:left;
         background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(237,3,32,0.87) 20.8%, rgba(242,121,1,0.84) 74.4% );    
-        width:32%;
+        width:29%;
         
     }
 }
